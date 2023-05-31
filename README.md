@@ -150,6 +150,8 @@ These are just a few ideas to expand the functionality and user experience of th
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Video Description 
+[See the presentation](https://www.loom.com/share/65a3a73028664d2eb1c1675fd02c6fe7)
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
