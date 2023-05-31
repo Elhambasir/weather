@@ -1,27 +1,10 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { createStore } from 'redux';
+import { configureStore } from '@reduxjs/toolkit';
+import weatherReducer from './cities/weatherSlice';
 
-const initialState = {
-  cities: [],
-};
-
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'ADD_CITY':
-      return {
-        ...state,
-        cities: [...state.cities, action.payload],
-      };
-    case 'SET_CITIES':
-      return {
-        ...state,
-        cities: action.payload,
-      };
-    default:
-      return state;
-  }
-};
-
-const store = createStore(reducer);
+const store = configureStore({
+  reducer: {
+    weather: weatherReducer,
+  },
+});
 
 export default store;
