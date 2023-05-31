@@ -1,0 +1,151 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.weather-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.weather-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.mobile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-wrapper-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: brown;
+  width: 100%;
+  gap: 10px;
+}
+
+.mobile-wrapper-add-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-wrapper-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-wrapper-filter-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.mobile-wrapper-city-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  gap: 10px;
+  background-color: rgb(138, 73, 73);
+}
+
+.mobile-wrapper-city-list-items {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  background-color: rgb(150, 26, 26);
+}
+
+.mobile-wrapper-city-list-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: brown;
+  width: 100%;
+}
+
+.mobile-wrapper-city-list-item1 > * {
+  flex: 1;
+  text-align: center;
+}
+
+.mobile-wrapper-city-list-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: brown;
+  width: 100%;
+}
+
+.mobile-wrapper-city-list-item2 > * {
+  flex: 1;
+  text-align: right;
+  color: white;
+  width: 90%;
+}
+
+/* CITY DETAILS STYLES */
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: brown;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+.details-box > * {
+  text-decoration: none;
+}
+
+.details-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(138, 49, 49);
+  width: 100%;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
