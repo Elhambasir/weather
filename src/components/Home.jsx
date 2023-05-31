@@ -35,7 +35,7 @@ function Home() {
         </div>
         <div className="mobile-wrapper-city-list">
           {filtered(filter, cities)?.map((city) => (
-            <Link to={`/details/${city.id}`} key={city.id} city={city} className="details-link">
+            <Link to={`/details/${city.id}`} key={city.id} city={city} className="details-link city-box">
               <CityList key={city.id} city={city} getWeatherImage={getImage} />
             </Link>
           ))}

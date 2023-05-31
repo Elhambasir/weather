@@ -1,6 +1,4 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import './App.css';

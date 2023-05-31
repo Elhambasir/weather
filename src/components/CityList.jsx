@@ -9,16 +9,16 @@ function CityList({ city, getWeatherImage }) {
     <div className="mobile-wrapper-city-list-items">
       <div className="mobile-wrapper-city-list-item1">
         <div className="weatherImage">
-          <img src={getWeatherImage(city.main.temp)} alt="sdfsdfa" />
+          {city && city.main && <img src={getWeatherImage(city.main.temp)} alt="sdfsdfa" />}
         </div>
         <div className="right-arrow">
           <img src={right} alt="Right Arrow" id="right-arrow" />
         </div>
       </div>
       <div className="mobile-wrapper-city-list-item2">
-        <h4 className="mobile-wrapper-city-list-item-name-text">{city.name}</h4>
+        {city && city.main && <h4 className="mobile-wrapper-city-list-item-name-text">{city.name}</h4>}
         <p className="mobile-wrapper-city-list-item-name-text">
-          {city.main.temp}
+          {city && city.main && city.main.temp}
           °C
         </p>
       </div>
