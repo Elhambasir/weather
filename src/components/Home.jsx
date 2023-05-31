@@ -21,10 +21,11 @@ function Home() {
   return (
     <div className="weather-container">
       <div className="weather-title-container">
-        <h3 className="weather-title">Weather</h3>
+        <h6 className="weather-title">Weather</h6>
       </div>
       <div className="mobile-wrapper">
         <div className="mobile-wrapper-top">
+          <p className="city-text">CITIES AND THIER WEATHER.</p>
           <div className="mobile-wrapper-filter">
             <CityFilter
               value={filter}
@@ -32,7 +33,6 @@ function Home() {
             />
           </div>
         </div>
-        <h4 className="city-text">CITIES AND THIER WEATHER.</h4>
         <div className="mobile-wrapper-city-list">
           {filtered(filter, cities)?.map((city) => (
             <Link to={`/details/${city.id}`} key={city.id} city={city} className="details-link">

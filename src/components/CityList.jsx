@@ -1,16 +1,19 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
+import right from '../assets/img/right.png';
 
 function CityList({ city, getWeatherImage }) {
   return (
 
     <div className="mobile-wrapper-city-list-items">
       <div className="mobile-wrapper-city-list-item1">
-        <img src={getWeatherImage(city.main.temp)} alt="sdfsdfa" width="50" />
-        <button type="button">
-          icon
-        </button>
+        <div className="weatherImage">
+          <img src={getWeatherImage(city.main.temp)} alt="sdfsdfa" />
+        </div>
+        <div className="right-arrow">
+          <img src={right} alt="Right Arrow" id="right-arrow" />
+        </div>
       </div>
       <div className="mobile-wrapper-city-list-item2">
         <h4 className="mobile-wrapper-city-list-item-name-text">{city.name}</h4>
