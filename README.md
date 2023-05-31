@@ -63,7 +63,7 @@ The following features are implemented in the Weather App:
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-- Click [here](comming soon) to view the live Demo. 
+- Click [here](https://weather-vlif.onrender.com) to view the live Demo. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ You can deploy this project using any web hosting service of your choice.
 
 This project was developed by:
 
-👤 **Mussie Kahsay** - Developer
+👤 **Basir Elham** - Developer
 
 - GitHub: [@Elhambasir](https://github.com/Elhambasir)
 - LinkedIn: [@Basirelham](https://www.linkedin.com/in/basirelhamahmadi)
