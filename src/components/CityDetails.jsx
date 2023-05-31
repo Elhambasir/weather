@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 function CityDetails() {
   const cities = useSelector((state) => state.weather);
   const { id } = useParams();
-  const detail = cities[0].filter((detail) => detail.id === Number(id));
+  const detail = cities[0]?.filter((detail) => detail.id === Number(id));
   return (
     <div className="details-container">
       <h2 className="details-header">{detail ? detail[0].name : 'detail not found'}</h2>
