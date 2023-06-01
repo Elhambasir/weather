@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import right from '../assets/img/right.png';
 
@@ -16,7 +15,7 @@ function CityList({ city, getWeatherImage }) {
         </div>
       </div>
       <div className="mobile-wrapper-city-list-item2">
-        {city && city.main && <h4 className="mobile-wrapper-city-list-item-name-text">{city.name}</h4>}
+        {city && city.main && <p className="mobile-wrapper-city-list-item-name-text">{city.name}</p>}
         <p className="mobile-wrapper-city-list-item-name-text">
           {city && city.main && city.main.temp}
           °C
