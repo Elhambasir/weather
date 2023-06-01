@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 400px;
-  min-height:100vh;
+  min-height: 100vh;
   margin: 0 auto;
   overflow-y: scroll;
   background-color: #4268af;
@@ -129,7 +129,7 @@ img#right-arrow {
   width: 20px;
 }
 
-.mobile-wrapper-city-list-item1>* {
+.mobile-wrapper-city-list-item1 > * {
   flex: 1;
   text-align: center;
 }
@@ -142,7 +142,7 @@ img#right-arrow {
   width: 100%;
 }
 
-.mobile-wrapper-city-list-item2>* {
+.mobile-wrapper-city-list-item2 > * {
   flex: 1;
   text-align: right;
   color: white;
@@ -230,7 +230,7 @@ img#right-arrow {
   background-color: #3f62a5;
 }
 
-.details-box>* {
+.details-box > * {
   text-decoration: none;
   border-radius: 5px;
   -webkit-border-radius: 5px;
