@@ -1,0 +1,240 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-y: scroll;
+  background-color: #4268af;
+  color: white;
+  padding: 0;
+}
+
+.weather-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #5c7fc1;
+}
+
+.weather-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.mobile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+
+.mobile-wrapper-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+}
+
+.mobile-wrapper-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-wrapper-filter-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-text {
+  font-size: 12px;
+  font-weight: 500;
+  width: 95%;
+  background-color: #35548b;
+  padding: 5px 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.filter-select {
+  border: none;
+  outline: none;
+  height: 25px;
+  border-radius: 3px;
+  color: blue;
+  cursor: pointer;
+}
+
+.mobile-wrapper-city-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  gap: 10px;
+  background-color: var(_headerBackground);
+}
+
+.mobile-wrapper-city-list-items {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  height: 160px;
+  background-color: #3f62a5;
+}
+
+.mobile-wrapper-city-list-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+img {
+  width: 70px;
+  margin-top: 10px;
+}
+
+.weatherImage {
+  width: 7px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+img#right-arrow {
+  width: 20px;
+}
+
+.mobile-wrapper-city-list-item1 > * {
+  flex: 1;
+  text-align: center;
+}
+
+.mobile-wrapper-city-list-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.mobile-wrapper-city-list-item2 > * {
+  flex: 1;
+  text-align: right;
+  color: white;
+  width: 90%;
+}
+
+.mobile-wrapper-city-list-item-name-text {
+  text-decoration: none !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+/* CITY DETAILS STYLES */
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #4268af;
+  gap: 10px;
+  overflow-y: scroll;
+  color: white;
+}
+
+.details-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #567ab9;
+  width: 90%;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.details-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  background-color: #4268af;
+}
+
+.details-back-link {
+  color: white;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.details-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #35548b;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.details-item:nth-child(odd) {
+  background-color: #3f62a5;
+}
+
+.details-item:nth-child(even) {
+  background-color: #3f62a5;
+}
+
+.details-box > * {
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
