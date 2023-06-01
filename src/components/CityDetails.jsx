@@ -48,9 +48,8 @@ function CityDetails() {
           <p className="details-item">
             <span className="details-item-name">temp_max</span>
             <span className="details-item-value">
-              {detail[0].temp_max}
+              {detail[0].main.temp_max}
               {' '}
-              meters
             </span>
           </p>
           <p className="details-item">
